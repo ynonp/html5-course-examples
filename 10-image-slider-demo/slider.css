@@ -1,0 +1,15 @@
+.slider {
+  width:300px;
+  overflow:hidden;
+}
+
+.slider-inner {
+  margin-left:0px;
+  width:999999px;
+  transition: all 0.5s;
+}
+
+img {
+  width: 300px;
+}
+

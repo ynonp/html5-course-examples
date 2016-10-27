@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multiple Components Demo</title>
+  </head>
+  
+  <body>
+    <button id="btn-reset">Reset</button>
+
+    <div class="textbox" data-maxlength="40"></div>
+    <div class="textbox" data-maxlength="60"></div>
+    <div class="textbox" data-maxlength="80"></div>
+
+    <script type="text/template" id="tmpl-textbox">
+      <p class="panel">
+        <span class="title"></span>
+        <span class="val"></span>
+      </p>
+      <div>
+        <textarea></textarea>
+      </div>
+    </script>
+
+    <script src="utils.js"></script>
+    <script src="panel.js"></script>
+    <script src="remaining-panel.js"></script>
+    <script src="current-length-panel.js"></script>
+    <script src="limited-textbox.js"></script>
+    <script src="main.js"></script>
+
+  </body>  
+</html>

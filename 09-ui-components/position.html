@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Position</title>
+		<style>
+.outer {
+	background: red;
+	width: 250px;
+	height: 250px;  
+	position: relative;
+}
+
+.inner {
+	background: yellow;
+	width: 50px;
+	height:50px;
+	border-radius: 75px;
+	position: absolute;
+	left: calc(50% - 25px);
+	top: calc(50% - 25px);
+}
+		</style>
+	</head>
+	<body>
+		<div class="outer">
+			<div class="inner">
+			</div>
+		</div>		
+	</body>
+</html>

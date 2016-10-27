@@ -1,0 +1,71 @@
+/**
+ * 	Selectos We'll use:
+ * 
+ * Type Selector
+ * ID Selector
+ * Class Selector
+ * Descendant Selector
+ * State Selector
+ * nth-child Selector
+ * :before and :after
+ * 
+ */
+
+td:before {
+	content: "(";
+	color:red;
+	font-size: 36px;	
+}
+
+td:after {
+	content: ")";
+	color:red;
+	font-size: 36px;	
+}
+
+
+form {
+	width: 500px;
+	margin: 20px auto;
+	border: 2px solid blue;
+	padding: 40px;
+}
+
+#empty-form {
+	border: 5px solid red;
+}
+
+form .uc {
+	text-transform:uppercase;
+}
+
+form div {
+	margin: 40px;
+}
+
+form:hover label {
+	background:orange;
+}
+
+table { width: 100%; }
+
+table tr {
+	background:#a7a7a7;
+}
+
+table tr:nth-child(2n) {
+	background:#0c0c0c;
+	color:white;
+}
+
+table td {
+	padding: 10px;
+}
+
+
+
+
+
+
+
+

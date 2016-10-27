@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Menu</title>
+		<style>
+
+body { padding: 0; margin: 0; min-width:250px; }
+.menu.horizontal {
+	list-style:none;
+	margin:0; 
+	padding:0;
+}
+
+.horizontal .menu-item {
+	display:inline-block;
+	width:33%;
+	box-sizing: border-box;
+	border-right: 1px dashed black;
+	text-align:center;
+	padding:5px;  
+}
+
+.horizontal .menu-item:last-child {
+	border-right:0;
+}
+
+.menu-item a {
+	text-decoration:none;  
+	color: black;
+}
+
+.menu-item:hover {
+	background: #a8a8a8;
+}
+
+.menu-item.active {
+	background: orange;
+}
+
+		</style>
+	</head>
+	<body>
+		<ul class="menu horizontal">
+			<li class="menu-item active">
+				<a href="#">Home</a>
+			</li><li class="menu-item">
+				<a href="#">About</a>
+			</li><li class="menu-item">
+				<a href="#">Gallery</a>
+			</li>  
+		</ul>		
+	</body>
+</html>

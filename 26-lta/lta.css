@@ -1,0 +1,17 @@
+.textbox {
+  font-size: 24px;
+}
+
+.textbox textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+.textbox p {
+  margin-bottom: 0;
+  background: lightyellow;
+  font-size: 0.8em;
+}
+

@@ -1,0 +1,17 @@
+.game div {
+  width:100px;
+  height:100px;
+  display:inline-block;
+  background:blue;
+  margin: 10px;  
+}
+
+.game {
+  width:250px;
+  margin:0 auto;
+  outline: 1px solid;
+}
+
+.game .winner {
+  background:red;
+}

@@ -1,0 +1,25 @@
+canvas {
+  outline: 1px solid blue;
+  width:800px;
+  margin:50px auto;
+  display:block;
+}
+.button_panel {
+  padding:20px;
+  background: #a7a7a7;
+}
+
+.button_panel button {
+  font-size: 36px;
+  margin: 20px;
+}
+
+.button_panel input {
+  width:50px;
+  height:40px;
+}
+
+body {
+  margin:0;
+  padding:0;
+}

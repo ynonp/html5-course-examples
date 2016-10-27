@@ -1,0 +1,14 @@
+body {
+  background: #7EA5E2;
+}
+
+h1 {
+  color: #F00B42;
+  font-size: 1.5em;
+  font-weight:normal;
+  text-transform:uppercase;
+}
+
+p {
+  color: darkblue;
+}

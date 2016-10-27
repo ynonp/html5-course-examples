@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JS Bin</title>
+		<style>
+			canvas {
+				outline: 1px solid blue;
+				width:800px;
+				margin:50px auto;
+				display:block;
+			}
+			.button_panel {
+				padding:20px;
+				background: #a7a7a7;
+			}
+			
+			.button_panel button {
+				font-size: 36px;
+				margin: 20px;
+			}
+			
+			.button_panel input {
+				width:50px;
+				height:40px;
+			}
+			
+			body {
+				margin:0;
+				padding:0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="button_panel">
+			<input type="color" name="color" id="color-picker" />
+			<button id="btn-save">
+				Save
+			</button>
+			<button id="btn-load">
+				Load
+			</button>
+		</div>
+		<canvas width=800 height=600 ></canvas>
+
+		<script src="lab_painter.js"></script>
+
+	</body>
+</html>

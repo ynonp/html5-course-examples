@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="uc red ">Another div</div>
+		<table>
+			<tr><td>a</td><td>b</td></tr>
+			<tr><td>a</td><td>b</td></tr>
+			<tr><td>a</td><td>b</td></tr>
+			<tr><td>a</td><td>b</td></tr>
+		</table>
+		<form id="empty-form"></form>
+		<form method="POST" action="save_data">
+			<div>
+				<label class="" for="inp-name">Full Name</label>
+				<input type="text" id="inp-name" placeholder="e.g. John Smith" />
+			</div>
+			<div>
+				<label class="uc" id="label-for-color" for="inp-color">Favorite Color</label>
+				<input type="color" id="inp-color" placeholder="e.g. blue" />
+			</div>
+			<div>
+				<label class="" for="inp-email">Email</label>
+				<input type="email" id="inp-email" placeholder="john@smith.com" />
+			</div>
+			<div>
+				<input type="submit" value="Save" />
+			</div>
+		</form>
+	</body>
+</html>

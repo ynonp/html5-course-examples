@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<meta name="google" value="notranslate">
+<title>Angular Demo Project: Click Counter</title>
+</head>
+
+<body>
+
+<div ng-app="myapp">
+  <div ng-controller="main as vm">
+    <h1 ng-bind="vm.text"></h1>
+    <p>
+    You clicked <span ng-bind="vm.clicks"></span> times
+    </p>
+    <button ng-click="vm.clicked()">Click Me</button>
+  </div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js'></script>
+
+<script src="init.js"></script>
+<script src="main_controller.js"></script>
+  
+</body>
+</html>
+
+
